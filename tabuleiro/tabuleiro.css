@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tabuleiros {
+  background-color: #313131;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.tabuleiros .div {
+  background-color: #313131;
+  width: 440px;
+  height: 1180px;
+  position: relative;
+}
+
+.tabuleiros .gamification {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 1100px;
+  left: 205px;
+}
+
+.tabuleiros .text-wrapper {
+  position: absolute;
+  top: 91px;
+  left: 25px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tabuleiros .vector {
+  position: absolute;
+  width: 24px;
+  height: 25px;
+  top: 55px;
+  left: 25px;
+}
+
+.tabuleiros .group {
+  width: 387px;
+  top: 176px;
+  left: 34px;
+  position: absolute;
+  height: 170px;
+}
+
+.tabuleiros .overlap-group {
+  position: relative;
+  width: 381px;
+  height: 170px;
+}
+
+.tabuleiros .rectangle {
+  width: 380px;
+  height: 170px;
+  top: 0;
+  left: 1px;
+  background-color: #d9d9d9;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.tabuleiros .text-wrapper-2 {
+  position: absolute;
+  top: 15px;
+  left: 180px;
+  font-family: "Bree Serif", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tabuleiros .text-wrapper-3 {
+  top: 68px;
+  left: 180px;
+  position: absolute;
+  font-family: "Bree Serif", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tabuleiros .rectangle-2 {
+  width: 80px;
+  height: 23px;
+  top: 135px;
+  left: 292px;
+  background-color: #000000;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.tabuleiros .text-wrapper-4 {
+  top: 138px;
+  left: 301px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tabuleiros .image {
+  width: 170px;
+  left: 0;
+  aspect-ratio: 1;
+  position: absolute;
+  height: 170px;
+  top: 0;
+  object-fit: cover;
+}
+
+.tabuleiros .overlap-wrapper {
+  width: 386px;
+  top: 396px;
+  left: 35px;
+  position: absolute;
+  height: 170px;
+}
+
+.tabuleiros .overlap {
+  position: relative;
+  width: 380px;
+  height: 170px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.tabuleiros .xadrez-tem-tico {
+  position: absolute;
+  width: 110px;
+  top: 15px;
+  left: 242px;
+  font-family: "Bree Serif", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tabuleiros .text-wrapper-5 {
+  top: 68px;
+  left: 242px;
+  position: absolute;
+  font-family: "Bree Serif", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tabuleiros .div-wrapper {
+  position: absolute;
+  width: 80px;
+  height: 23px;
+  top: 135px;
+  left: 291px;
+  background-color: #000000;
+  border-radius: 20px;
+}
+
+.tabuleiros .text-wrapper-6 {
+  top: 3px;
+  left: 9px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tabuleiros .img {
+  width: 231px;
+  left: 1px;
+  aspect-ratio: 1.36;
+  position: absolute;
+  height: 170px;
+  top: 0;
+  object-fit: cover;
+}
+
+.tabuleiros .overlap-group-wrapper {
+  width: 386px;
+  top: 616px;
+  left: 35px;
+  position: absolute;
+  height: 170px;
+}
+
+.tabuleiros .text-wrapper-7 {
+  position: absolute;
+  width: 191px;
+  top: 14px;
+  left: 180px;
+  font-family: "Bree Serif", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tabuleiros .text-wrapper-8 {
+  top: 48px;
+  left: 180px;
+  position: absolute;
+  font-family: "Bree Serif", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tabuleiros .group-2 {
+  width: 386px;
+  top: 836px;
+  left: 37px;
+  position: absolute;
+  height: 170px;
+}
+
+.tabuleiros .text-wrapper-9 {
+  top: 49px;
+  left: 185px;
+  position: absolute;
+  font-family: "Bree Serif", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tabuleiros .text-wrapper-10 {
+  top: 3px;
+  left: 8px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
