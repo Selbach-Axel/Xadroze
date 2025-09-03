@@ -227,3 +227,9 @@
   left: 0;
   object-fit: cover;
 }
+
+@media (min-width: 768px) {
+    ul {
+        flex-direction: row;
+    }
+}
